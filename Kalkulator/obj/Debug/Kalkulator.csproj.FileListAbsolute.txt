@@ -1,0 +1,26 @@
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe.config
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.AssemblyReference.cache
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Kalkulator.resources
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Properties.Resources.resources
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.GenerateResource.cache
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.CoreCompileInputs.cache
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\bin\Debug\pl-PL\Kalkulator.resources.dll
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Kalkulator.pl-PL.resources
+C:\Users\Serwis\Desktop\Kalkulator\Kalkulator\obj\Debug\pl-PL\Kalkulator.resources.dll
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe.config
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\bin\Debug\pl-PL\Kalkulator.resources.dll
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.AssemblyReference.cache
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Kalkulator.resources
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Properties.Resources.resources
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Kalkulator.pl-PL.resources
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.GenerateResource.cache
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csproj.CoreCompileInputs.cache
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\obj\Debug\pl-PL\Kalkulator.resources.dll
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
+C:\Users\Serwis\Desktop\Programowanie Graficzne i Obiektowe\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb

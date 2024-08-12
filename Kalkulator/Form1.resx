@@ -1,0 +1,840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>789, 642</value>
+  </data>
+  <data name="rightBracket.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 140</value>
+  </data>
+  <data name="commaButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 462</value>
+  </data>
+  <data name="&gt;&gt;number4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;rightBracket.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;number0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;number9.Name" xml:space="preserve">
+    <value>number9</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="number8.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="resultLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;leftBracket.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;number1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rightBracket.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="resultPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 27</value>
+  </data>
+  <data name="number7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 221</value>
+  </data>
+  <data name="calculatorBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="backButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="divisionButton.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="commaButton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;equalButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="number4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;number3.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="number3.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="number5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="multiplicationButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 462</value>
+  </data>
+  <data name="&gt;&gt;number8.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="backButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="number0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 462</value>
+  </data>
+  <data name="&gt;&gt;number0.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;additionButton.Name" xml:space="preserve">
+    <value>additionButton</value>
+  </data>
+  <data name="number7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;number8.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="number5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 301</value>
+  </data>
+  <data name="number2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;number5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="number8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="resultLabel.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;number6.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="resultLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rightBracket.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="number8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="number1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;additionButton.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;number5.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;number3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="number7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="additionButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 382</value>
+  </data>
+  <data name="number9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 27</value>
+  </data>
+  <data name="&gt;&gt;divisionButton.Name" xml:space="preserve">
+    <value>divisionButton</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="number9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Kalkulator</value>
+  </data>
+  <data name="number8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;calculatorBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="divisionButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="number2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 382</value>
+  </data>
+  <data name="number6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="&gt;&gt;multiplicationButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rightBracket.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="&gt;&gt;number6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="number0.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="number7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="additionButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;number9.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;resultLabel.Name" xml:space="preserve">
+    <value>resultLabel</value>
+  </data>
+  <data name="number1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="additionButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;commaButton.Name" xml:space="preserve">
+    <value>commaButton</value>
+  </data>
+  <data name="number4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="multiplicationButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;rightBracket.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="resetButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="multiplicationButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="multiplicationButton.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;number7.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="number2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;equalButton.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;number7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;additionButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="number7.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="resetButton.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="resetButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="number5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="number4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 301</value>
+  </data>
+  <data name="number0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="subtractionButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 301</value>
+  </data>
+  <data name="&gt;&gt;number0.Name" xml:space="preserve">
+    <value>number0</value>
+  </data>
+  <data name="number1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="subtractionButton.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="number0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="number5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="divisionButton.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Kalkulator</value>
+  </data>
+  <data name="calculatorBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="number7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="number9.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;number2.Name" xml:space="preserve">
+    <value>number2</value>
+  </data>
+  <data name="subtractionButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;rightBracket.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="calculatorBox.Text" xml:space="preserve">
+    <value>calkulatorBox</value>
+  </data>
+  <data name="&gt;&gt;number3.Name" xml:space="preserve">
+    <value>number3</value>
+  </data>
+  <data name="number3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="number6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 301</value>
+  </data>
+  <data name="number5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;resultLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="number4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="rightBracket.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;additionButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="leftBracket.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="number4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="equalButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="&gt;&gt;number5.Name" xml:space="preserve">
+    <value>number5</value>
+  </data>
+  <data name="&gt;&gt;number4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backButton.Name" xml:space="preserve">
+    <value>backButton</value>
+  </data>
+  <data name="number9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 221</value>
+  </data>
+  <data name="number3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="divisionButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 462</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="subtractionButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="rightBracket.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;number5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;divisionButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;leftBracket.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;resultPanel.Name" xml:space="preserve">
+    <value>resultPanel</value>
+  </data>
+  <data name="divisionButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="&gt;&gt;subtractionButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;number3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="subtractionButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;calculatorBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;multiplicationButton.Name" xml:space="preserve">
+    <value>multiplicationButton</value>
+  </data>
+  <data name="additionButton.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;equalButton.Name" xml:space="preserve">
+    <value>equalButton</value>
+  </data>
+  <data name="&gt;&gt;number6.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 100</value>
+  </data>
+  <data name="&gt;&gt;number7.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;subtractionButton.Name" xml:space="preserve">
+    <value>subtractionButton</value>
+  </data>
+  <data name="leftBracket.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;divisionButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="resetButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="resultPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;number4.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;resetButton.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;number1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="resultLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resultLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="number2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;number2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="number2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;commaButton.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="calculatorBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 550</value>
+  </data>
+  <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 140</value>
+  </data>
+  <data name="&gt;&gt;number1.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;resultPanel.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;number9.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="subtractionButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="commaButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;multiplicationButton.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="resultLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 39</value>
+  </data>
+  <data name="equalButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="leftBracket.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;equalButton.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="number8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 221</value>
+  </data>
+  <data name="equalButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 221</value>
+  </data>
+  <data name="&gt;&gt;resultLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;calculatorBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="backButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="divisionButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;number2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="resetButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 140</value>
+  </data>
+  <data name="&gt;&gt;commaButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;number0.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="number9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;number9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;number2.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;resultPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="number9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="number6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;resultLabel.Parent" xml:space="preserve">
+    <value>resultPanel</value>
+  </data>
+  <data name="commaButton.Text" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="number0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;commaButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;leftBracket.Name" xml:space="preserve">
+    <value>leftBracket</value>
+  </data>
+  <data name="equalButton.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="equalButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="number1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="number6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="number3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 382</value>
+  </data>
+  <data name="leftBracket.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 140</value>
+  </data>
+  <data name="calculatorBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 30</value>
+  </data>
+  <data name="&gt;&gt;divisionButton.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="number3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="leftBracket.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="additionButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="backButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;rightBracket.Name" xml:space="preserve">
+    <value>rightBracket</value>
+  </data>
+  <data name="number5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="number8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="multiplicationButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;number8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="multiplicationButton.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="additionButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;number4.Name" xml:space="preserve">
+    <value>number4</value>
+  </data>
+  <data name="number6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="equalButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;subtractionButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backButton.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="leftBracket.Text" xml:space="preserve">
+    <value>(</value>
+  </data>
+  <data name="&gt;&gt;multiplicationButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="number4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="number2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="&gt;&gt;resetButton.Name" xml:space="preserve">
+    <value>resetButton</value>
+  </data>
+  <data name="number1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 382</value>
+  </data>
+  <data name="number3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="number0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;number6.Name" xml:space="preserve">
+    <value>number6</value>
+  </data>
+  <data name="&gt;&gt;resultPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calculatorBox.Name" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;leftBracket.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;number7.Name" xml:space="preserve">
+    <value>number7</value>
+  </data>
+  <data name="&gt;&gt;number8.Name" xml:space="preserve">
+    <value>number8</value>
+  </data>
+  <data name="backButton.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="number1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="commaButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="number6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="commaButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="resetButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 60</value>
+  </data>
+  <data name="&gt;&gt;subtractionButton.Parent" xml:space="preserve">
+    <value>calculatorBox</value>
+  </data>
+  <data name="&gt;&gt;number1.Name" xml:space="preserve">
+    <value>number1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pl-PL</value>
+  </metadata>
+</root>
